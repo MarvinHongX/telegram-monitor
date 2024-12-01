@@ -42,6 +42,10 @@ function monitorLogFile() {
                         bot.sendMessage(chatId, `<<MINER01>> ${line}`);
                     }
 
+		    if (line.includes('submit window post failed')) {
+                        bot.sendMessage(chatId, `<<MINER01>> ${line}`);
+                    }
+
                     if (line.includes('Submitted window post')) {
 			const startIndex = line.indexOf('(deadline');
                         const endIndex = line.indexOf(')', startIndex) + 1;
