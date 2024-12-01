@@ -868,3 +868,9 @@ Unhandled rejection Error: ETELEGRAM: 429 Too Many Requests: retry after 5
 Sun, 01 Dec 2024 01:02:24 GMT node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
 In the future, you will have to enable it yourself.
 See https://github.com/yagop/node-telegram-bot-api/issues/319. at node:internal/modules/cjs/loader:1198:14
+Sun, 01 Dec 2024 01:05:39 GMT node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. at node:internal/modules/cjs/loader:1198:14
+Sun, 01 Dec 2024 03:18:58 GMT node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. at node:internal/modules/cjs/loader:1198:14

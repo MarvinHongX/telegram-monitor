@@ -46,6 +46,10 @@ function monitorLogFile() {
                         bot.sendMessage(chatId, `<<MINER01>> ${line}`);
                     }
 
+		    if (line.includes('could not read file p_aux=')) {
+                        bot.sendMessage(chatId, `<<MINER01>> ${line}`);
+                    }
+
                     if (line.includes('Submitted window post')) {
 			const startIndex = line.indexOf('(deadline');
                         const endIndex = line.indexOf(')', startIndex) + 1;
@@ -65,4 +69,3 @@ function monitorLogFile() {
 
 // 로그 파일 모니터링 시작
 monitorLogFile();
-
