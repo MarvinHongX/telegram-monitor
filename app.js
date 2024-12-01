@@ -42,6 +42,10 @@ function monitorLogFile() {
                         bot.sendMessage(chatId, `<<MINER01>> ${line}`);
                     }
 
+		    if (line.includes('Aborted window post Submitting')) {
+                        bot.sendMessage(chatId, `<<MINER01>> ${line}`);
+                    }
+
 		    if (line.includes('submit window post failed')) {
                         bot.sendMessage(chatId, `<<MINER01>> ${line}`);
                     }
