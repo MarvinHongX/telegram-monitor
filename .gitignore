@@ -1,0 +1,15 @@
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Logs
+logs
+*.log
+*.txt
+
+# Local env files
+.env
+.env.*
+!.env.example

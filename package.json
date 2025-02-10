@@ -1,0 +1,16 @@
+{
+  "name": "telegram-monitor",
+  "version": "1.0.0",
+  "description": "Telegram log monitor for Ubuntu server",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-telegram-bot-api": "^0.53.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
